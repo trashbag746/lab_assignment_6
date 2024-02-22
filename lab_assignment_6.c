@@ -52,7 +52,7 @@ int main(void) {
     if (index >= 0) {
       printf("Item %d exists in the number array at index %d!\n", value, index);
     } else {
-      printf("Item %d does not exist in the number array!\n", value);
+      printf("-1!\n");
     }
 
     free(numArray);
